@@ -13,6 +13,7 @@ import sys
 #  2. INTEGER_ARRAY b
 #
 
+#Works on Python 3.9+ due to using math.lcm and math.gcd function
 def getTotalX(a, b):
     # Write your code here
     lcm = math.lcm(*a)
